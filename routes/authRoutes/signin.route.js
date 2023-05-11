@@ -4,6 +4,6 @@ const router = express.Router()
 // import sign in controller
 const SignInController = require("../../controllers/authControllers/signin.controller")
 
-router.get('/', SignInController)
+router.post('/', SignInController)
 
 module.exports = router

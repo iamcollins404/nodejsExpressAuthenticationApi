@@ -2,8 +2,8 @@ const express = require("express")
 const router = express.Router()
 
 // import sign in controller
-const SignInController = require("../../controllers/authControllers/signin.controller")
+const SignUnController = require("../../controllers/authControllers/signup.controller")
 
-router.get('/', SignInController)
+router.post('/', SignUnController)
 
 module.exports = router
