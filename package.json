@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "nodejsexpressauthenticationapi",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamcollins404/nodejsExpressAuthenticationApi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamcollins404/nodejsExpressAuthenticationApi/issues"
+  },
+  "homepage": "https://github.com/iamcollins404/nodejsExpressAuthenticationApi#readme",
+  "description": ""
+}
